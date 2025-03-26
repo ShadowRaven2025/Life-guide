@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LifeGuide - Советы для школьников</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 0 auto; }
+        .search-box { padding: 20px; background: #f0f8ff; }
+        .advice-card { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>🔍 LifeGuide</h1>
+    
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Как справиться со стрессом?">
+        <button onclick="searchAdvice()">Найти совет</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="advice.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
