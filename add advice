@@ -1,0 +1,14 @@
+function addNewAdvice() {
+    const question = prompt("Введите вопрос:");
+    const answer = prompt("Введите совет:");
+    
+    if (question && answer) {
+        adviceDatabase.push({
+            id: adviceDatabase.length + 1,
+            category: "Пользовательский",
+            question: question,
+            answer: answer
+        });
+        alert("Совет добавлен!");
+    }
+}
